@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	input := aoc_utils.ReadInput("02/example.txt")
-	data := aoc_utils.ReadInput("02/data.txt")
+	input := aoc_utils.Example()
+	data := aoc_utils.Data()
 
 	fmt.Printf("Solution 1: %d\n", solve1(input))
 	fmt.Printf("Solution 2: %d\n", solve2(input))
